@@ -1,5 +1,6 @@
 const { fontFamily } = require("tailwindcss/defaultTheme");
 
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   corePlugins: {
@@ -10,6 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        'Archive': ['Archive', 'sans-serif'], // Define the 'Archive' font    
       },
       borderRadius: {
       },

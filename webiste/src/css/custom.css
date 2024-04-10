@@ -3,10 +3,21 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+
+ 
+/* Import Tailwind base styles */
 @tailwind base;
+
+/* Import Tailwind component styles */
 @tailwind components;
+
+/* Import Tailwind utility styles */
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Archive';
+  src: local('Archive'), url("../css/fonts/Archive-Regular.ttf"), format('ttf');
+}
 /* You can override the default Infima variables here. */
 :root {
 
@@ -32,4 +43,8 @@
   --ifm-color-primary-lighter: #855EDE;
   --ifm-color-primary-lightest: #855EDE;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.title{
+  font-family: Archive;
 }

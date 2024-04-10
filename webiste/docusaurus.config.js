@@ -9,8 +9,8 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Artrobots',
-  tagline: 'Documentação do clube 🤙',
+  title: 'ARTROBOTS',
+  tagline: 'DOCUMENTAÇÃO do clube 🤙',
   favicon: 'img/favicon.ico',
   plugins: [tailwindPlugin],
 

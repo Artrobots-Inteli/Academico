@@ -8,8 +8,8 @@ function HomepageHeader() {
   return (
     <div className='my-8 ml-4'>
       <h1 className='font-black text-7xl title'>{siteConfig.title}</h1>
-      <h2 className='font-bold text-4xl'>Clube de Robôtica - Inteli</h2>
-      <p className='text-justify pr-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt rhoncus urna eget pretium. Quisque viverra libero at ex lacinia, aliquam tincidunt nibh dapibus. Aenean a diam sit amet quam mattis posuere nec ac eros. Vivamus sed tortor neque. Mauris feugiat posuere varius. Vivamus pulvinar diam neque, non ultricies urna ullamcorper vitae. In mauris mauris, vehicula a molestie et, rutrum fermentum dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <h2 className='font-bold text-4xl'>Acadêmico</h2>
+      <p className='text-justify pr-4'>Bem-vindo ao site acadêmico do Clube de Robótica! Aqui, você encontrará recursos educacionais para explorar os conceitos fundamentais e avançados da robótica. Desde materiais de nivelamento até artigos mais avançados e tutoriais, nosso objetivo é fornecer uma plataforma para o aprendizado e a descoberta na área da robótica.</p>
     </div>
   );
 }
@@ -28,7 +28,7 @@ function Componente() {
       <div className='grid grid-cols-3  -skew-y-6 '>
         <img src={robo} alt="Logo Artrobots" className='p-4 object-scale-down max-w-md ' />
         <div className='text-justify p-12 col-span-2 translate-y-1/4'>
-          <h1 className='font-black text-7xl '>Acadêmico Bonitão :P 💂‍♂️</h1>
+          <h1 className='font-black text-7xl '></h1>
           <p className=' text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt rhoncus urna eget pretium. Quisque viverra libero at ex lacinia, aliquam tincidunt nibh dapibus. Aenean a diam sit amet quam mattis posuere nec ac eros. Vivamus sed tortor neque. Mauris feugiat posuere varius. Vivamus pulvinar diam neque, non ultricies urna ullamcorper vitae. In mauris mauris, vehicula a molestie et, rutrum fermentum dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
         </div>
       </div>

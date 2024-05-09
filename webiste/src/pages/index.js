@@ -2,7 +2,7 @@ import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import LogoArtrobts from '../../static/img/LogoArtrobots.png';
-import robo from '../../static/img/robo.jpeg';
+import aula_academico from '../../static/img/aula_academico.jpg';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -22,14 +22,18 @@ function ImageColumn() {
     </div>
   );
 }
+
 function Componente() {
   return (
     <div className='bg-violet-600 skew-y-6 container pb-32 p-0 m-0 mt-16 min-h-fit min-w-full'>
-      <div className='grid grid-cols-3  -skew-y-6 '>
-        <img src={robo} alt="Logo Artrobots" className='p-4 object-scale-down max-w-md ' />
+      <div className='grid grid-cols-3 -skew-y-6'>
+        <img src={aula_academico} alt="Logo Artrobots" className='p-4 object-scale-down max-w-md' />
         <div className='text-justify p-12 col-span-2 translate-y-1/4'>
-          <h1 className='font-black text-7xl '></h1>
-          <p className=' text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt rhoncus urna eget pretium. Quisque viverra libero at ex lacinia, aliquam tincidunt nibh dapibus. Aenean a diam sit amet quam mattis posuere nec ac eros. Vivamus sed tortor neque. Mauris feugiat posuere varius. Vivamus pulvinar diam neque, non ultricies urna ullamcorper vitae. In mauris mauris, vehicula a molestie et, rutrum fermentum dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          <h1 className='font-white text-7xl'></h1>
+          <p className='text-xl text-white'>
+            No âmbito acadêmico, nosso compromisso é com a excelência educacional e o desenvolvimento dos nossos membros. Através de workshops regulares, oferecemos oportunidades para aprofundar o conhecimento em áreas-chave da robótica, desde programação até design mecânico.<br/>
+            Além disso, dedicamos tempo para garantir que novos membros se integrem suavemente ao clube. Nossas orientações personalizadas e nivelamentos fornecem uma base sólida para que todos os participantes possam contribuir de maneira significativa desde o início.
+          </p>
         </div>
       </div>
     </div>

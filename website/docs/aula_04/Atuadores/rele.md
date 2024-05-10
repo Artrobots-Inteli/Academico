@@ -1,11 +1,11 @@
 # Relé
-<img src="/img/rele.png" alt="Botão" width="200"/>
+<img src={require('@site/static/img/rele.png').default} alt="Relé" width="200"/>
 Um relé é um dispositivo eletromecânico utilizado para controlar a passagem de corrente elétrica em um circuito, permitindo o controle remoto de cargas elétricas de alta potência por meio de sinais elétricos de ba
 
 Um relé é um dispositivo eletromecânico utilizado para controlar a passagem de corrente elétrica em um circuito, permitindo o controle remoto de cargas elétricas de alta potência por meio de sinais elétricos de baixa potência. Ele consiste em um eletroímã, um conjunto de contatos móveis e uma mola de retorno.
 
 O funcionamento básico de um relé envolve o uso de uma corrente elétrica para ativar o eletroímã, que por sua vez movimenta os contatos móveis. Quando não há corrente elétrica aplicada ao eletroímã, a mola de retorno mantém os contatos em uma posição padrão, normalmente abertos (NA) ou normalmente fechados (NF), dependendo do tipo de relé. Quando uma corrente elétrica é aplicada ao eletroímã, ele gera um campo magnético que atrai os contatos móveis, fazendo com que eles mudem de posição e permitam a passagem da corrente elétrica pelo circuito.
-<img src="/img/rele-electromagnetico.png" alt="Botão" width="300"/>
+<img src={require('@site/static/img/rele-electromagnetico.png').default} alt="Relé Eletromagnético" width="300"/>
 
 Os relés são usados em uma variedade de aplicações, dependendo das necessidades do projeto. Alguns dos usos mais comuns incluem:
 

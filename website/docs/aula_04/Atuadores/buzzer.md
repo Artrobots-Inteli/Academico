@@ -1,5 +1,5 @@
 # Buzzer
-<img src={require('@site/static/img/buzzer.png').default} alt="Botão" width="200"/>
+<img src={require('@site/static/img/buzzer.png').default} alt="Buzzer" width="200"/>
 
 Um buzzer é um dispositivo eletrônico que produz som quando uma corrente elétrica passa por ele. Funciona convertendo energia elétrica em vibrações mecânicas, que por sua vez geram som. Existem vários tipos de buzzers, incluindo buzzers piezoelétricos e magnéticos, cada um com suas próprias características e aplicações.
 

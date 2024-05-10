@@ -1,5 +1,5 @@
 # Motores Elétricos
-<img src="/img/motor.png" alt="Botão" width="300"/>
+<img src={require('@site/static/img/motor.png').default} alt="Motor" width="300"/>
 Um motor elétrico é um dispositivo que converte energia elétrica em energia mecânica, produzindo movimento rotativo. Ele funciona com base nos princípios da interação entre campos magnéticos e correntes elétricas, conforme descrito pela lei de Ampère e pela lei de Faraday da indução eletromagnética.
 
 O funcionamento básico de um motor elétrico envolve três componentes principais: o rotor, o estator e o comutador (no caso de motores de corrente contínua). O estator é a parte fixa do motor e contém um conjunto de bobinas condutoras, geralmente dispostas em torno de um núcleo ferromagnético. O rotor é a parte móvel do motor e consiste em uma bobina condutora (ou conjunto de bobinas) montada em um eixo.

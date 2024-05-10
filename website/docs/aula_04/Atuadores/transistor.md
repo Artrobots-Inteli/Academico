@@ -1,6 +1,6 @@
 # Transistor
-<img src="/img/transistor_mosfet.png"  width="150"/>
-<img src="/img/transistor_bipolar.png"  width="150"/>
+<img src={require('@site/static/img/transistor_mosfet.png').default} alt="Transistor Mosfet" width="150"/>
+<img src={require('@site/static/img/transistor_bipolar.png').default} alt="Transistor Bipolar" width="150"/>
 Um transistor é um componente semicondutor fundamental em eletrônica, utilizado para amplificar ou comutar sinais elétricos e controlar o fluxo de corrente em um circuito. Ele consiste em três camadas semicondutoras dopadas de forma específica, geralmente designadas como emissor, base e coletor, formando duas junções PN.
 
 O funcionamento básico de um transistor é baseado na capacidade de controlar o fluxo de corrente entre as camadas semicondutoras. Existem dois tipos principais de transistores: o transistor de junção bipolar (BJT) e o transistor de efeito de campo (FET). Vou explicar o funcionamento do BJT, que é o mais comum.
@@ -29,7 +29,7 @@ Por outro lado, no transistor NPN, a região da base é de tipo negativo (N), en
 Quanto ao uso, os transistores PNP são adequados para aplicações onde a corrente flui da base para o emissor, sendo comumente empregados em circuitos de comutação e amplificação de corrente contínua (DC). Por sua vez, os transistores NPN são usados em aplicações onde a corrente flui da base para o coletor, sendo amplamente utilizados em circuitos de comutação e amplificação de corrente contínua (DC) e alternada (AC).
 
 Assim, a escolha entre PNP e NPN depende das características específicas da aplicação, como a direção da corrente, o tipo de sinal de entrada e a polaridade da tensão.
-<img src="/img/pnp_npn.png"  width="300"/>
+<img src={require('@site/static/img/pnp_npn.png').default} alt="Tipos de transistor"  width="300"/>
 
 ## Interruptor vs Amplificador
 O transistor pode ser usado tanto como um interruptor quanto como um amplificador, dependendo da configuração do circuito e das necessidades da aplicação.

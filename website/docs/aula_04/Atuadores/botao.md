@@ -1,5 +1,5 @@
 # Botão
-<img src="/img/botao.png" alt="Botão" width="200"/>
+<img src={require('@site/static/img/botao.png').default} alt="Botão" width="200"/>
 
 Um botão é um dispositivo simples e amplamente utilizado em eletrônica e engenharia para controlar o fluxo de corrente elétrica em um circuito. Ele funciona abrindo ou fechando um circuito elétrico quando é pressionado.
 

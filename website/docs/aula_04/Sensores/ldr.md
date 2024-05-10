@@ -1,5 +1,5 @@
 # LDR
-<img src="/img/ldr.png"  width="200"/>
+<img src={require('@site/static/img/ldr.png').default} alt="Sensor LDR"  width="200"/>
 Um LDR (Light Dependent Resistor), também conhecido como fotoresistor, é um componente eletrônico sensível à luz que varia sua resistência elétrica em resposta à intensidade luminosa do ambiente ao seu redor. Seu funcionamento se baseia nas propriedades dos materiais semicondutores utilizados em sua fabricação, que possuem uma resistência elétrica que varia de acordo com a quantidade de luz incidente sobre eles.
 
 Quando um LDR é exposto à luz, os fótons presentes na luz incidem sobre o material semicondutor do componente, excitando os elétrons em sua estrutura atômica. Isso provoca um aumento na condutividade do material, resultando em uma diminuição da resistência elétrica do LDR. Por outro lado, quando o LDR é mantido em ambientes escuros ou com baixa intensidade de luz, menos fótons atingem o material semicondutor, reduzindo assim a excitação dos elétrons e aumentando a resistência elétrica do componente.

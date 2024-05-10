@@ -1,5 +1,5 @@
 # BME/BMP280
-<img src="/img/bme.png"  width="200"/>
+<img src={require('@site/static/img/bme.png').default} alt="Sensor BME280"  width="200"/>
 O BME/BMP280 é um sensor de pressão, temperatura e umidade altamente preciso e de baixo consumo de energia, projetado para uma variedade de aplicações. Ele consiste em um sensor de pressão e um sensor de temperatura integrados, e em alguns modelos também inclui um sensor de umidade.
 
 O funcionamento do BME/BMP280 é baseado em princípios físicos bem estabelecidos. O sensor de pressão mede a pressão atmosférica através de um sensor piezoelétrico, que converte a pressão em um sinal elétrico proporcional. O sensor de temperatura mede a temperatura ambiente por meio de um termistor integrado, cuja resistência varia com a temperatura. Em modelos que incluem o sensor de umidade, este opera utilizando um sensor capacitivo, que mede a umidade relativa do ar.

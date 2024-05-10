@@ -1,8 +1,8 @@
 import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import LogoArtrobts from '../../static/img/LogoArtrobots.png';
-import aula_academico from '../../static/img/aula_academico.jpg';
+import LogoArtrobts from '@site/static/img/LogoArtrobots.png';
+import aula_academico from '@site/static/img/aula_academico.jpg';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
